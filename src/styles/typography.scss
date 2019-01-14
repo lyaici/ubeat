@@ -1,0 +1,72 @@
+@import './font.scss';
+@import './color.scss';
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+  color: $secondary-color;
+}
+
+span {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: $main-color;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: $main-color;
+}
+
+h1 {
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  color: $main-color;
+  margin: 5px 0;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: 'Kodchasan', sans-serif;
+}
+
+h2 {
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  text-transform: capitalize;
+  color: $main-color;
+  font-weight: normal;
+  margin: 15px 0;
+  &.navbar {
+    font-weight: bold;
+    color: $secondary-color;
+  }
+}
+
+h3 {
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  color: $main-color;
+  font-weight: 300;
+  margin: 0 0;
+}
+
+input {
+  font-size: 15px;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #777777;
+  text-overflow: clip;
+  text-shadow: 1px 1px 0 rgba(255,255,255,0.66);
+}
+
+button {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
